@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 
 TRANSIT_AGENCY = 'sf-muni'
 STOPS = [
-    {'route_id': '33', 'distance_in_mins': 3,  'stop_id': '3327', 'direction': 'inbound',  'desc': '33 Inbound to General Hospital'},
-    {'route_id': '33', 'distance_in_mins': 3,  'stop_id': '3328', 'direction': 'outbound', 'desc': '33 Outbound to the Richmond District'},
+    {'route_id': '33', 'distance_in_mins': 3,  'stop_id': '3327', 'direction': 'inbound',  'desc': '33 Inbound to the Richmond District'},
+    {'route_id': '33', 'distance_in_mins': 3,  'stop_id': '3328', 'direction': 'outbound', 'desc': '33 Outbound to General Hospital'},
     {'route_id': 'F',  'distance_in_mins': 10, 'stop_id': '3311', 'direction': 'outbound', 'desc': 'F Outbound to Fisherman\'s Wharf'},
     {'route_id': 'KT', 'distance_in_mins': 10, 'stop_id': '5728', 'direction': 'inbound',  'desc': 'KT Inbound to Sunnydale & Bayshore'},
     {'route_id': 'L',  'distance_in_mins': 10, 'stop_id': '5728', 'direction': 'inbound',  'desc': 'L Inbound to Embarcadero Station'},
