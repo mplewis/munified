@@ -2,7 +2,6 @@
 
 import requests
 from bs4 import BeautifulSoup
-from pprint import pprint
 
 TRANSIT_AGENCY = 'sf-muni'
 STOPS = [
@@ -70,6 +69,7 @@ def merge_predictions(stops, predictions):
     return merged_stops
 
 if __name__ == '__main__':
+    from pprint import pprint
     predictions = fetch_predictions(STOPS)
     stops_with_predictions = merge_predictions(STOPS, predictions)
     pprint(stops_with_predictions)
