@@ -58,13 +58,12 @@ def merge_predictions(stops, predictions):
         except KeyError:
             continue
         time_to_walk = relevant_stop['distance_in_mins']
-        actual_time_to_leave = None
+        possible_departure_times = []
         for departure_time in prediction['next_departures']:
             departure_time_diff = departure_time - time_to_walk
             if departure_time_diff >= 0:
-                actual_time_to_leave = departure_time_diff
-                break
-        relevant_stop['time_left_to_leave'] = actual_time_to_leave
+                possible_departure_times.append(departure_time_diff)
+        relevant_stop['possible_departure_times'] = possible_departure_times
         merged_stops.append(relevant_stop)
     return merged_stops
 
