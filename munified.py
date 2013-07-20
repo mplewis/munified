@@ -8,10 +8,10 @@ STOPS = [
     {'route_id': '33', 'distance_in_mins': 3,  'stop_id': '3327', 'direction': 'inbound',  'desc': '33 Inbound to the Richmond District'},
     {'route_id': '33', 'distance_in_mins': 3,  'stop_id': '3328', 'direction': 'outbound', 'desc': '33 Outbound to General Hospital'},
     {'route_id': 'F',  'distance_in_mins': 10, 'stop_id': '3311', 'direction': 'outbound', 'desc': 'F Outbound to Fisherman\'s Wharf'},
-    {'route_id': 'KT', 'distance_in_mins': 10, 'stop_id': '5728', 'direction': 'inbound',  'desc': 'KT Inbound to Sunnydale & Bayshore'},
+    {'route_id': 'KT', 'distance_in_mins': 10, 'stop_id': '5728', 'direction': 'inbound',  'desc': 'T Inbound to Sunnydale & Bayshore'},
     {'route_id': 'L',  'distance_in_mins': 10, 'stop_id': '5728', 'direction': 'inbound',  'desc': 'L Inbound to Embarcadero Station'},
     {'route_id': 'M',  'distance_in_mins': 10, 'stop_id': '5728', 'direction': 'inbound',  'desc': 'M Inbound to Embarcadero Station'},
-    {'route_id': 'KT', 'distance_in_mins': 10, 'stop_id': '6991', 'direction': 'outbound', 'desc': 'KT Outbound to Balboa Park'},
+    {'route_id': 'KT', 'distance_in_mins': 10, 'stop_id': '6991', 'direction': 'outbound', 'desc': 'K Outbound to Balboa Park'},
     {'route_id': 'L',  'distance_in_mins': 10, 'stop_id': '6991', 'direction': 'outbound', 'desc': 'L Outbound to SF Zoo'},
     {'route_id': 'M',  'distance_in_mins': 10, 'stop_id': '6991', 'direction': 'outbound', 'desc': 'M Outbound to Balboa Park'}
 ]
